@@ -8,7 +8,7 @@ with open('input.json', 'r') as f:
     data = json.load(f)
 
 # use open to open 'output.csv' in write mode
-with open('test.csv', 'w') as f:
+with open('output.csv', 'w') as f:
 
 # use csv.writer to create writer using the opened file
 	writer = csv.writer(f)
@@ -17,6 +17,10 @@ with open('test.csv', 'w') as f:
 	writer.writerow(['id', 'value'])
 
 # loop through the top level children data['children']
+	for i in data['children']:
+		print(i)
 # use writer.writerow to write one row at a time with the name and budget
+
+
 # - prepend 'flare.other.' to each name
 # - remove any spaces in the name
