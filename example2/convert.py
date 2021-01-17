@@ -20,8 +20,13 @@ with open('output.csv', 'w') as f:
 	for i in data['children']:
 		
 # use writer.writerow to write one row at a time with the name and budget
-		writer.writerow([i['name'], i['data']['budget']])
+		# writer.writerow([i['name'], i['data']['budget']])
 
 # - prepend 'flare.other.' to each name
-		
 # - remove any spaces in the name
+		naming = 'flare.other.' + i['name']
+		naming.replace(' ', '')
+
+		budgeting = i['data']['budget']
+
+		writer.writerow([naming, budgeting])
