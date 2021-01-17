@@ -24,9 +24,8 @@ with open('output.csv', 'w') as f:
 
 # - prepend 'flare.other.' to each name
 # - remove any spaces in the name
-		naming = 'flare.other.' + i['name']
-		naming.replace(' ', '')
+		naming = 'flare.other.' + i['name'].replace(' ', '')
 
-		budgeting = i['data']['budget']
+		budgeting = i['data']['budget'].replace("$", "").replace(",", "")
 
 		writer.writerow([naming, budgeting])

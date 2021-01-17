@@ -1,15 +1,15 @@
 id,value
-flare.other.National Defense,"$615,515"
-flare.other.Health Care,"$1,107,446"
-flare.other.Income Security,"$546,350"
-flare.other.Education and Job Training,"$106,342"
-flare.other.Veteran Benefits,"$180,324"
-flare.other.International Affairs,"$55,951"
-flare.other.Transportation,"$98,742"
-flare.other.Natural Resources and Environment,"$44,311"
-"flare.other.Science, Space, and Technology Programs","$30,968"
-flare.other.Social Security,"$944,338"
-flare.other.Immigration and Other Federal Law Enforcement,"$38,645"
-flare.other.Response to Natural Disasters,"$15,435"
-flare.other.Other Government Programs,"$35,075"
-flare.other.Net Interest,"$283,049"
+flare.other.NationalDefense,615515
+flare.other.HealthCare,1107446
+flare.other.IncomeSecurity,546350
+flare.other.EducationandJobTraining,106342
+flare.other.VeteranBenefits,180324
+flare.other.InternationalAffairs,55951
+flare.other.Transportation,98742
+flare.other.NaturalResourcesandEnvironment,44311
+"flare.other.Science,Space,andTechnologyPrograms",30968
+flare.other.SocialSecurity,944338
+flare.other.ImmigrationandOtherFederalLawEnforcement,38645
+flare.other.ResponsetoNaturalDisasters,15435
+flare.other.OtherGovernmentPrograms,35075
+flare.other.NetInterest,283049
