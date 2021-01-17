@@ -18,9 +18,10 @@ with open('output.csv', 'w') as f:
 
 # loop through the top level children data['children']
 	for i in data['children']:
-		print(i)
+		
 # use writer.writerow to write one row at a time with the name and budget
-
+		writer.writerow([i['name'], i['data']['budget']])
 
 # - prepend 'flare.other.' to each name
+		
 # - remove any spaces in the name
